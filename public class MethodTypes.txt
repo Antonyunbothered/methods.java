@@ -1,0 +1,44 @@
+public class MethodTypes {
+
+  public static void sayHello() {
+    System.out.println("Static method!");
+  }
+
+  public void greet(String name) {
+    System.out.println("Hello, " + name + "!");
+  }
+
+  public static void main(String[] args) {
+    MethodTypes obj = new MethodTypes();
+    sayHello();
+    obj.greet("World");
+  }
+}
+
+
+public class MethodParts {
+
+  public static double calculateArea(int length, int width) {
+    return length * width;
+  }
+
+  public static void main(String[] args) {
+    double area = calculateArea(5, 3);
+    System.out.println("Area: " + area);
+  }
+}
+
+
+public class MethodExample {
+
+  public static void sayHello() {
+    System.out.println("Hello from a method!");
+  }
+
+  public static void main(String[] args) {
+    sayHello();
+  }
+}
+
+
+
